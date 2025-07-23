@@ -160,6 +160,27 @@ ul.main-menu li a{
     width: 100%;
   }
 
-  
+  /* card style  */
+  .Plants-text-container{
+    text-align: center;
+    margin-top: 65px;
+  }
+  .Plants-text-container h1{
+    font-size: 1.5rem;
+  }
+  .Plants-text-container p{
+    text-align: center;
+    margin: 16px 28.5px;
+    font-size: 14px;
+  }
+  .Plants-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center; 
+    padding: 0 5px;
+  }
+  .Plants-card {
+    max-width: 100%;
+  }
 
 }
