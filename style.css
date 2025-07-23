@@ -28,7 +28,6 @@ h1, h2, h3, h4, h5, h6 {
 .container{
   max-width: 1140px;
   margin: 0 auto;
-  background-color: aquamarine;
 }
 
 .nav-flex-container{
@@ -56,6 +55,24 @@ ul.main-menu li a{
   font-weight: bold;
 }
 
+/* banner style start  */
+.banner-flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items:end;
+  margin-top: 120px;
+}
+.color2{
+  color: var(--btn-color);
+}
+.text-container h1{
+  font-size:4.03rem ;
+}
+.text-container p{
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
 
 
 
@@ -66,4 +83,6 @@ ul.main-menu li a{
   .nav-flex-container{
     margin: 13px 16px;
   }
+
+
 }
