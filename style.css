@@ -24,3 +24,38 @@ h1, h2, h3, h4, h5, h6 {
   --text-color:#FFFFFF;
 }
 
+/* nav style section  */
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+
+.nav-flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  align-items: center;
+}
+.menu-wrapper,
+.main-menu{
+  display: flex;
+  align-items: center;
+}
+ul.main-menu li{
+  list-style: none;
+}
+ul.main-menu li a{
+  text-decoration: none;
+  margin: 48px;
+  color: var(--secondary-color);
+}
+.home{
+  color: #252432;
+  font-weight: bold;
+}
+
+
+
+
