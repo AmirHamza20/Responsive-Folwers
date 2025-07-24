@@ -348,23 +348,23 @@ ul.main-menu li a{
     margin-bottom: 20px;
   }
   .plant {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
   .Peace-lily h2{
-  font-size: 20px;
-  margin-bottom: 19px;
-}
-.Peace-lily a{
-  font-size: 16px;
-}
-.Peace-lily{
-  padding: 70px 54px 55px 60px;
-  border-radius: 14px;
-  background-size: cover;
-  background-position: center;
-}
+    font-size: 20px;
+    margin-bottom: 19px;
+  }
+  .Peace-lily a{
+    font-size: 16px;
+  }
+  .Peace-lily{
+    padding: 70px 54px 55px 60px;
+    border-radius: 14px;
+    background-size: cover;
+    background-position: center;
+  }
 
   .bloom-plant::before,
   .ana-plant::before,
