@@ -156,6 +156,106 @@ ul.main-menu li a{
   margin-top: -120px;
 }
 
+/* shop plant style  */
+.shop-title{
+  text-align: center;
+  margin-top: 133px;
+  margin-bottom: 120px;
+}
+.shop-title h2 {
+  font-size:50px;
+  margin-bottom: 16px;
+}
+.shop-title p{
+  margin: 0px 130px;
+  color: var(--secondary-color);
+  font-size: 22px;
+}
+.shop-flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bloom-plant{
+  background-image: url(assets/deal-bloom.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 48px;
+  text-align: center;
+  border-radius: 14px;
+  margin-bottom: 25px;
+}
+.ana-plant{
+  background-image: url(assets/deal-ana.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 48px;
+  text-align: center;
+  border-radius: 14px;
+}
+.bloom-plant h2,
+.ana-plant h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: var(--text-color);
+}
+.bloom-plant a,
+.ana-plant a {
+  color: var(--text-color);
+  font-size: 16px;
+}
+.Peace-lily{
+  background-image:url(assets/Peace-lily.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 172px 138px 129px 190px;
+  text-align: center;
+  border-radius: 22px;
+}
+.Peace-lily h2{
+  font-size: 40px;
+  color: var(--text-color);
+  margin-bottom: 26px;
+}
+.Peace-lily a{
+  color: var(--text-color);
+  font-size: 28px;
+}
+
+.bloom-plant,
+.ana-plant,
+.Peace-lily {
+  position: relative;
+  overflow: hidden;
+}
+
+.bloom-plant::before,
+.ana-plant::before,
+.Peace-lily::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease;
+  z-index: 0; 
+}
+
+.bloom-plant h2,
+.bloom-plant a,
+.ana-plant h2,
+.ana-plant a,
+.Peace-lily h2,
+.Peace-lily a {
+  position: relative;
+  z-index: 1;
+}
+
+
+
 
 
 
@@ -228,4 +328,6 @@ ul.main-menu li a{
     display: inline-block;
   }
 
+ 
 }
+
