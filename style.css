@@ -296,6 +296,39 @@ ul.main-menu li a{
   border: none;
 }
 
+/* footer section start  */
+.footer-flex-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0px;
+  
+}
+.footer-band{
+  max-width: 359px;
+}
+.footer-band p{
+  margin-top: 16px;
+  font-size: 22px;
+  color: var(--secondary-color);
+}
+
+.menu-wrapper ul li,
+.Second-menu ul li {
+  list-style: none;
+  margin-bottom: 26px;
+}
+.menu-wrapper ul li a,
+.Second-menu ul li a {
+  text-decoration: none;
+  color:#6B7280;
+}
+.social-logo img {
+  margin-right: 26px;
+}
+.social-logo img:last-child {
+  margin-right: 0px;
+}
+
 
 
 
@@ -426,5 +459,19 @@ ul.main-menu li a{
   .join-form button {
     width: auto;
   }
+
+  /* footer style  */
+
+  .footer-flex-container{
+    flex-direction: column;
+    margin: 50px 20px;
+  }
+  .menu-wrapper{
+    margin-top:20px ;
+  }
+  .footer-band p{
+    font-size: 16px;
+  }
+
 }
 
