@@ -328,6 +328,48 @@ ul.main-menu li a{
     display: inline-block;
   }
 
- 
+  /* shop plant style  */
+  .shop-title{
+    margin: 0 16px;
+  }
+  .shop-title h2 {
+    font-size:24px;
+    margin-bottom: 16px;
+  }
+  .shop-title p{
+    font-size: 14px;
+    margin:0px auto;
+    margin-bottom: 51px;
+  }
+  .shop-flex-container{
+    display: flex;
+    flex-direction: column;
+    gap:25px ;
+    margin-bottom: 20px;
+  }
+  .plant {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+  .Peace-lily h2{
+  font-size: 20px;
+  margin-bottom: 19px;
+}
+.Peace-lily a{
+  font-size: 16px;
+}
+.Peace-lily{
+  padding: 70px 54px 55px 60px;
+  border-radius: 14px;
+  background-size: cover;
+  background-position: center;
+}
+
+  .bloom-plant::before,
+  .ana-plant::before,
+  .Peace-lily::before {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
 }
 
