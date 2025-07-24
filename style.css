@@ -211,4 +211,21 @@ ul.main-menu li a{
     max-width: 100%;
   }
 
+  /* plants lover style  */
+  .plants-lover-flex-container{
+    flex-direction: column;
+    margin: 41px 16px;
+  }
+  .trusted-badge{
+    display: none;
+  }
+  .plants-lover-img img{
+    width: 100%;
+    margin-bottom: 18px;
+  }
+  .plants-lover-img h2{
+    font-size: 14px;
+    display: inline-block;
+  }
+
 }
