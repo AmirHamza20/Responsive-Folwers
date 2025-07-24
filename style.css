@@ -411,5 +411,20 @@ ul.main-menu li a{
   .Peace-lily::before {
     background-color: rgba(0, 0, 0, 0.6);
   }
+   /* join section style  */
+  .join-text-container h2{
+    font-size: 20px;
+  }
+  .join-form {
+    flex-direction: row;
+  }
+
+  .join-form input {
+    flex: 1;
+  }
+
+  .join-form button {
+    width: auto;
+  }
 }
 
