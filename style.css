@@ -131,6 +131,34 @@ ul.main-menu li a{
 }
 
 
+/* plants lover style  */
+.plants-lover-flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 210px;
+  gap: 50px;
+  
+}
+.plants-lover-text ul li{
+  margin:30px 20px;
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+.plants-lover-text h2{
+  font-size:24px ;
+}
+
+.trusted-badge img{
+  width: 286px;
+  position: absolute;
+  margin-left: 370px;
+  margin-top: -120px;
+}
+
+
+
+
 
 @media screen and (max-width:576px) {
   .main-menu{
